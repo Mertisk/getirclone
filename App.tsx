@@ -17,6 +17,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fff",
-    // marginTop: "15%", video5  stack navigator eklendi
+    marginTop: "15%", video5  stack navigator eklendi
   },
 });

@@ -1,5 +1,4 @@
 import React from "react";
-import { View } from "react-native";
 import { TouchableOpacity, Image, Text, Dimensions } from "react-native";
 import { Category } from "../../models";
 const { height, width } = Dimensions.get("window");

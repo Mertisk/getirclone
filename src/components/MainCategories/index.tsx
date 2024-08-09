@@ -3,9 +3,10 @@ import { View, StyleSheet } from "react-native";
 import CategoryItem from "../CategoryItem";
 import categoriesGetir from "../../../assets/categoriesGetir";
 import { Category } from "../../models/index";
-const [categories, setCategories] = useState<Category[]>(categoriesGetir);
 
 function index() {
+  const [categories, setCategories] = useState<Category[]>(categoriesGetir);
+
   return (
     <View>
       <View style={styles.listContainer}>
